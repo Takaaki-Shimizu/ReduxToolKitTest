@@ -17,7 +17,7 @@ const ReduxAsync = () => {
       <span data-testid="count-value">{count}</span>
       <button onClick={() => dispatch(fetchDummy(5))}>FetchDummy</button>
       {username && <h1>{username}</h1>}
-      <button onClick={() => dispatch(fetchJSON())}>fetchJSON</button>
+      <button onClick={() => dispatch(fetchJSON())}>FetchJSON</button>
     </div>
   );
 };
